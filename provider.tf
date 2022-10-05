@@ -21,7 +21,7 @@ terraform {
     resource_group_name  = "atm-infra"
     storage_account_name = "atmtstate"
     container_name       = "tstate"
-    key                  = "L8J/THOEeAhY2WX28/ypc2mri7s+s7ZRCl8NqCLpQCTfHENbSt2nVEgbGX4PRvziQ9+3A57icxvp+AStD8DtLQ=="
+    key                  = "terraform.state"
   }
 
   required_providers {
